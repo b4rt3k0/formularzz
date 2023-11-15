@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Studniówka</title>
+
+    <style>
+        body
+        {
+            margin: 5px;
+            background-color: #F6E5DC;
+        }
+        #calosc
+        {
+           
+            width: auto;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:   #F6E5DC;
+font-family: Verdana ;
+        }
+
+        #gura
+        {
+background-color: #2F180C;
+text-align: center;
+color: khaki;
+height: 60px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        #srodek1
+        {
+            width: 60%;
+            float: left;
+
+        }
+        #obrazek
+        {
+            height: 400px;
+        }
+        #srodek2
+        {
+            font-size: 150%;
+            padding: 70px;
+            float: left;
+            
+        }
+        #srodek3
+        {
+            background-color: #D0B6A8;
+            padding: 30px;
+            text-align: center;
+            clear: both;
+            height: 485px;
+         
+        }
+        #footer
+        {
+            background-color: #2F180C;
+            color: khaki;
+            margin-bottom: 0;
+            height: 62px;
+        }
+        #przycisk1
+        {
+            padding: 10px;
+            margin: 5px;
+            background-color: #2F180C;
+            color: khaki;
+        }
+        #przycisk2
+        {
+            padding: 10px;
+            margin: 5px;
+            background-color: #2F180C;
+            color: khaki;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="calosc">
+
+        <div id="gura">
+            
+            <h1> Rezerwacja na miejsce w autokarze powrotnym ze studniówki </h1>
+
+        </div>
+
+        <div id="srodek1">
+            <img src="bus.jpg"  height="350px" id="obrazek">
+
+        </div>
+        <div id="srodek2">
+            <ol>
+                <li>Miejsce docelowe
+                     <ul>
+                       <li>Zamość</li>
+                       <li>Biłgoraj</li>
+                     </ul>
+                </li>
+                <li>Bilet
+                    <ul>
+                       <li>Normalny</li>
+                       <li>Ulgowy</li>
+                       <li>Po znajomości</li>
+                    </ul>
+                </li>
+             </ol> 
+
+        </div>
+        <div id="srodek3">
+            <h2>Zarezerwuj busa online</h2>
+
+            <form action="" method="POST">
+
+            Imię: <br>
+            <input type="integer" name="pole_1"/>
+            <br>
+            Nazwisko:
+            <br> 
+            <input type="integer" name="pole_2"/>
+            <br>
+            Data 
+            <br>
+            <input type="date" name="pole_3"/>
+            <br>
+            Czy będziesz trzeźwy:
+            <br>
+            <label><input type="radio" name="pole_4" value="tak"/>Tak</label>
+            <label><input type="radio" name="pole_5" value="nie"/>Nie</label>
+            <br>
+            Gdzie chcesz siedzieć:
+            <br>
+            <input type="integer" name="pole_6"/>
+            <br>
+            Zgadzam się na przetwarzanie danych osobowych:
+            <br>
+            <label><input type="radio" name="pole_7" value="tak1"/>Tak</label>
+            <label><input type="radio" name="pole_8" value="nie1"/>Nie</label>
+            <br>
+            <input type="reset" name="wyślij" value="Wyczyść" id="przycisk1"/>
+            <input type="submit" name="wyślij" value="Zarezerwuj" id="przycisk2"/>
+            
+            
+            </form>
+            
+
+        </div>
+        <div id="footer">
+            <i>Stronę internetową opracował: Bartłomiej Magdziarz</i>
+           
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
